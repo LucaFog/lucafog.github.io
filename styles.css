@@ -1,0 +1,240 @@
+a {
+  color: #ffffffff;
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 800;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: text-shadow 250ms;
+}
+
+.block {
+  display:block;
+}
+
+body {
+  background-color: #0f181f;
+}
+
+button {
+  display: flex;
+  background-color: #ffffff00;
+  border:none;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 32px;
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  transition: text-shadow 250ms;
+}
+
+a:hover, button:hover {
+  text-shadow: #ffffff80 0 0 8px;
+}
+
+a:active, button:active {
+  text-shadow: #ffffff80 0 0 16px;
+  transition-duration: 0ms;
+}
+
+.text-centered {
+  text-align: center;
+}
+
+div {
+  margin: auto;
+  align-items: center;
+  display:flex;
+}
+
+.postit {
+  background-color: #1f282f;
+  outline-offset: 4px;
+  outline: #2f384f dashed 4px;
+  display: block;
+  
+  .postit-header {
+    background-color: #2f384f;
+    height: 48px;
+    pointer-events: none;
+    user-select: none;
+
+    img {
+      width: 32px;
+      margin:8px;
+    }
+    
+    h3 {
+      display:flex;
+      align-items: center;
+    }
+  }
+
+  .postit-contents {
+    justify-content: center;
+    text-align: center;
+    
+
+    button {
+      background-color: #ffffff10;
+    }
+  }
+}
+
+.element-flex {
+  gap: 24px;
+  
+  img {
+    margin: auto;
+    /* outline: #2f384f solid 8px; */
+    border-radius: 10%;
+    }
+}
+
+footer {
+  background-color: #1f282f;
+  color: #ffffff;
+  text-align: center;
+  display: grid;
+  
+  a {
+    align-content: center;
+    height: 32px;
+    margin: 8px;
+    
+    img {
+      width: 32px;
+    }
+  }
+
+  p {
+    color: #ffffff;
+    font-family: "Azeret Mono", monospace;
+    font-size: 16px;
+    margin: 8px;
+    display: inline;
+  }
+}
+
+h1 { /* used in page titles */
+  color: #ffffff;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 48px;
+  margin: 32px auto 8px;
+  text-align: center;
+}
+
+h2 { /* used in header searcher */
+  color: #ffffff80;
+  align-self: center;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 32px;
+  font-weight: 100;
+}
+
+h3 { /* used in body titles */
+  color: #ffffff;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 32px;
+  margin:auto;
+  text-align: center;
+}
+
+header { /* it works */
+  background-color: #1f282f;
+  display:flex;
+  user-select: none;
+
+  a {
+    cursor: pointer;
+    font-size: 32px;
+    text-transform: uppercase;
+    transition: text-shadow 250ms;
+  }
+  
+  a:hover {
+    color: #ffffffff;
+    text-shadow: #ffffff80 0 0 8px;
+  }
+  
+  a:active {
+    text-shadow: #ffffff80 0 0 16px;
+    transition-duration: 0ms;
+  }
+
+  div {
+    margin-inline: auto 0px;
+    flex-wrap: wrap;
+
+    #sections {
+      display:none;
+      gap: 8px;
+      margin-inline: 0px;
+    }
+
+    #translate {
+      margin-inline: auto 0px;
+      align-items: center;
+      height: 32px;
+      justify-content: center;
+      margin: 8px;
+      width: 32px;
+    }
+
+    img {
+      width: 32px;
+    }
+  }
+
+  h2 {
+    margin-block:0;
+    margin-inline: 8px 0px;
+  }
+
+  .searcher {
+    margin:8px;
+  }
+}
+
+html {
+  font-family: "Manrope",sans-serif;
+}
+
+img {
+  display: block;
+  margin-inline: auto;
+  margin-block: 5%;
+  width:50%;
+  pointer-events: none;
+  user-select: none;
+}
+
+.main {
+  display:block;
+  width:75%;
+
+  div {
+    margin-block: 32px;
+  }
+}
+
+p {
+  color: #efdfcf;
+  align-items: baseline;
+  display: inline-flex;
+  flex-wrap: wrap;
+  font-size: 24px;
+  gap: 4px;
+  
+  a{
+    font-family: inherit;
+    font-weight: bolder;
+    text-transform: inherit;
+  }
+  img {
+    width: 16px;
+  }
+
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Manrope:wght@200..800&family=Playwrite+NL:wght@100..400&display=swap");
