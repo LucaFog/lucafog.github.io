@@ -124,6 +124,7 @@ h1 { /* used in page titles */
   text-align: center;
   #hello {
     font-family: "Playwrite NL";
+  }
 }
 
 h2 { /* used in header searcher */
