@@ -122,6 +122,8 @@ h1 { /* used in page titles */
   font-size: 48px;
   margin: 32px auto 8px;
   text-align: center;
+  #hello {
+    font-family: "Playwrite NL";
 }
 
 h2 { /* used in header searcher */
